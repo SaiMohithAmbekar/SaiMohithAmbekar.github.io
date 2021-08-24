@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="firstpage.css" type="text/css">
+    <title>Coffee Shop Website</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#abc">
+                    <span class="icon-bar"></span>
+                </button>
+                <a style="font-size:large" class="navbar-brand" href="#">The Caffeine Rush</a>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="abc">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> Login</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="services" name="services">
+
+        <div class="row">
+            <h2 class="centered">What We Offer</h2>
+            <hr>
+            <div class="col-lg-8 col-lg-offset-2">
+                <p class="large">The Finest of Coffee, Tea and Shakes. We're sure you will love it and visit again.</p>
+            </div>
+
+
+            <div class="products">
+                <div class="container">
+                    <div class="row">
+                        <a href="coffee.html">
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail" style="text-align: center; border-radius: 20px 20px 20px 20px;">
+                                    <img class="item-image" src="img/coffee.jpg"
+                                        style="border-radius: 20px 20px 20px 20px;">
+                                    <div class="caption">
+                                        <h4 class="item-title">Coffee</h4>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="tea.html">
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail" style="text-align: center; border-radius: 20px 20px 20px 20px;">
+                                    <img class="item-image" src="img/tea.jpg"
+                                        style="border-radius: 20px 20px 20px 20px;">
+                                    <div class="caption">
+                                        <h4 class="item-title">Tea</h4>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="shakes.html">
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail" style="text-align: center; border-radius: 20px 20px 20px 20px;">
+                                    <img class="item-image" src="img/shakes.jpg"
+                                        style="border-radius: 20px 20px 20px 20px;">
+                                    <div class="caption">
+                                        <h4 class="item-title">Shakes</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="about" name="about">
+                <div class="container">
+                    <div class="row white">
+                        <h2 class="centered">Our Shop</h2>
+                        <hr>
+                        <div class="col-md-6"> <img class="img-responsive" src="img/about1.jpg">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Who we are</h3>
+
+                            <p>Brewing coffee is our passsion and we want to share this with everyone and make them
+                                happy.</p>
+
+                            <h3>Why choose us?</h3>
+
+                            <p>We want to do something different from start and moving towards the passion we like is
+                                always our dream. So this is us. We provide you what we do is best and we are sure you
+                                are going to love it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" name="contact">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="centered">Get In Touch</h2>
+                        <hr>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <strong>Please give us your feedback!</strong>
+                            <p>Please give us your valuable feedback and don't forget to rate us.</p>
+                            <form id="contact" method="post" class="form" role="form">
+                                <div class="row">
+                                    <div class="col-md-12 form-group">
+                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text"
+                                            required />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <input class="form-control" id="email" name="email" placeholder="Email"
+                                            type="email" required />
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Message"
+                                            rows="5"></textarea>
+                                        <button class="btn btn-lg pull-centre" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                        <div class="col-md-5">
+
+
+                            <i class="fa fa-map-marker fa-2x"></i>
+                            <strong>The Caffeine Rush</strong>
+                            <p>11111, Sector-104<br>
+                                Noida, Uttar Pradesh-201304</p>
+
+                            <br />
+                            <i class="fa fa-envelope-o fa-2x"></i>
+                            <p>info@thecaffeinerush.com</p>
+                            <br />
+                            <i class="fa fa-phone fa-2x"></i>
+                            <p> +91 9999999999</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid-bottom"
+        style="background-color: black; text-align: center; padding-bottom: 0px; height: 30px;">
+
+        <b>
+            <p style="color:rgb(255, 255, 255); margin-top: 7px;">
+                Copyright <span class="glyphicon glyphicon-copyright-mark"
+                    style="color: rgb(255, 255, 255); margin-top: 7px;"><b> 2021
+                        The Caffeine Rush</b>
+                </span>
+            </p>
+        </b>
+
+
+    </footer>
+</body>
+
+</html>

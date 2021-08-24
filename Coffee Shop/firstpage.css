@@ -1,0 +1,197 @@
+.navbar {
+height: 40px;
+font-size: medium;
+background-color: rgb(0, 0, 0);
+text-decoration-color: white;
+}
+
+.navbar-brand {
+    
+    font-size: medium;  
+}
+
+.types {
+    width: auto;
+    height: 720px;
+    text-align: center;
+    
+    background-size: cover;
+    border: 2px solid black;  
+    float: left;
+ width: 100%;  
+}
+
+.content {
+    
+    padding: 50px;
+    margin: 230px 330px 0px 330px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-size: x-large;
+    border-radius: 30px; 
+}
+
+option, select {
+    color: black;
+}
+
+h2 {
+    padding-bottom: 15px;
+}
+
+label {
+    padding-left: 25px;
+}
+
+.button {
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 20px;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    font-size: x-large;
+    
+}
+
+.products {
+    
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 30px;
+    margin: 70px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+    padding-top: 400px;
+}
+
+.footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 20px;
+    opacity:0.75;
+    background-color: white;
+}
+  
+.footer-dark .item.social > a:hover {
+    opacity:0.9;
+}
+  
+.footer-dark {
+    padding-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 180px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    text-decoration: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+a:link {
+    color: rgb(158, 158, 158);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.copyright { 
+    padding-top: 20px;
+    color: rgb(158, 158, 158);
+    padding-left: 500px;
+    font-family: 'Roboto Slab', serif;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+}
+#services {
+	background: #FFFFFF;
+	padding: 100px 0;
+	text-align: center;
+}
+#services .fa {
+	color: #422d0e;
+}
+#services p {
+	text-align: center;
+}
+#about {
+	background: #FFF;
+	padding: 100px 0;
+}
+#about img {
+	margin-top: 65px;
+}
+
+#contact .form {
+	padding: 30px 0;
+}
+#contact .fa {
+	color: #412b0d;
+	margin-bottom: 10px;
+}
+#contact .btn {
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 50px;
+	background-color: #412b0c;
+	color: #fff;
+	border: 0;
+	border-radius: 0;
+}
+#contact .btn:hover, #contact .btn:focus {
+	background-color: #332909;
+	outline: 0px;
+}
+
+.col-md-5, .col-md-4, .col-md-6, .col-md-7, .col-lg-8, .col-sm-6{
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+}
+
+.footer-dark .item.social > a {    
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    margin:0 20px;
+    opacity:0.75;
+    background-color: white;
+}
+  
+.footer-dark .item.social > a:hover {
+    opacity:0.9;
+}
+  
+.footer-dark {
+    padding-bottom: 5px;
+    margin-right: 0px;
+    padding-left: 180px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    text-decoration: white;
+    font-family: 'Roboto Slab', serif;
+}
